@@ -1,0 +1,398 @@
+/*
+ Table Of Contents
+ 1.) Global Typography
+ 2.) Global Headings
+ 3.) General Text Formatting
+ 4.) Sprite Icons
+ 5.) Site Wide Content
+ 6.) Header Styles
+ 7.) Footer Styles
+ ===============================================*/
+
+
+
+/*
+ 1.) Global Typography
+ ----------------------------------------*/
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #666666;
+    font-weight: 500;
+}
+
+/*
+ 2.) Global Headings
+ -----------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #333333;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	color: #7a1800;
+	line-height:1.2;
+    font-size: 54px;
+    font-family: "Dosis",Helvetica,Arial,Lucida,sans-serif;
+}
+h2 {
+	font-size: 30px;
+	color: #333333;
+	line-height:1.2;
+    font-weight: 500;
+    margin:0 0 10px;
+}
+h3 {
+	font-size: 22px;
+	line-height: 1.2;
+	margin: 0 0 18px 0;
+}
+h4 {
+	font-size: 21px;
+	line-height: 1;
+	margin: 0 0 0 0;
+}
+h5 {
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 0 0 15px 0;
+}
+h6 {
+	/* font-size: 14px; */
+	font-size: 1.4em;
+	line-height: 1.5;
+	margin: 0 0 1.5em 0;
+}
+
+/*
+ 3.) General Text Formatting
+ -----------------------------------*/
+p {
+	font-size: 17px;
+	line-height: 1.5;
+	color:#ffffff;
+	font-weight:500;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+ 4.) Sprite Icons
+ -------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 1px;
+	vertical-align: text-top;
+	width: 35px;
+}
+.icon-ln{
+	background-position: 0 0;
+}
+.icon-tw{
+	background-position: 0 -37px;
+}
+.icon-fb{
+	background-position: 0 -74px;
+}
+.icon-pint{
+	background-position: 0 -110px;
+}
+.icon-rss{
+	background-position: 0 -147px;
+}
+
+
+/*
+ 5.) Site Wide Content
+ ------------------------------*/
+#wrapper {
+	position: relative;
+}
+h4 strong{
+	font-size: 18px;
+	color:#ffffff;
+	line-height: 1.2;
+	display: block;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+.pdr-45{
+	padding-right: 45px !important;
+}
+.mb-50{
+	margin-bottom: 50px !important;
+}
+.mb-30{
+	margin-bottom: 30px !important;
+}
+.mb-15{
+	margin-bottom: 15px !important;
+}
+.scrollToTop{
+	background: rgba(0, 0, 0, 0.4) url('../images/arrow-top.png') ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    bottom: 125px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    position: fixed;
+    right: -40px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 99999;
+    opacity:1;
+    width:40px;
+    height: 40px;
+    -webkit-transition: all 0.5s ease ;
+    -moz-transition: all 0.5s ease ;
+    -ms-transition: all 0.5s ease ;
+    -o-transition: all 0.5s ease ;
+    transition: all 0.5s ease ;
+}
+.scrollToTop.show{
+	right:0;
+}
+.mb-135{
+	margin-bottom: 135px !important;
+}
+
+
+/*
+ 6.) Header Styles
+ ------------------------------*/
+#header {
+	
+}
+.logo{
+	float: left;
+}
+.header-nav{
+	float: right;
+	position: relative;
+}
+.storyagent-header{
+	margin: 0 auto;
+	position: absolute;
+	left:0;
+	right:0;
+	top:0;
+	padding: 6px 0;
+	-webkit-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
+    -moz-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
+    -ms-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
+    -o-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
+    transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
+    z-index: 99;
+}
+.storyagent-header.sticky{
+	position: fixed;
+	background: #fcfcfc;
+	-webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.storyagent-header .logo img{
+	-webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+    width:100%;
+}
+.storyagent-header.sticky .logo img{
+	width:85%;
+}
+.navbar-toggle-btn{
+	width:20px;
+	height:14px;
+	background: transparent;
+	border:0;
+	margin: 18px 7px 7px 7px;
+	-webkit-transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-ms-transition: all 0.7s ease 0s;
+	-o-transition: all 0.7s ease 0s;
+	transition: all 0.7s ease 0s;
+	float: right;
+	display: none;
+}
+.icon-bar{
+	width:20px;
+	height: 2px;
+	background:#2ea3f2;
+	margin-bottom: 4px;
+	display: block;
+}
+.navigation ul{
+	padding: 0;
+}
+.navigation li {
+	line-height: 1.2;
+	list-style-type: none;
+	display: inline-block;
+	padding: 8px 22px;
+	position: relative;
+}
+.navigation li a {
+	border: medium none;
+	color:#000000;
+	padding: 5px;
+	font-size: 16px;
+	text-transform: capitalize;
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	-moz-transition: all 0.2s ease-in-out 0s;
+	-ms-transition: all 0.2s ease-in-out 0s;
+	-o-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+	position: relative;
+	display: inline-block;
+}
+.navigation li a:hover,.navigation li a:focus{
+	opacity: 0.7;
+	text-decoration: none;
+}
+.navigation li a i{
+	background: none;
+	height: inherit;
+	width: inherit;
+	line-height: 1.2;
+	font-size: 13px;
+	color:#000000;
+	margin: -5px 0 0 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.storyagent-header.sticky .navigation li a,
+.storyagent-header.sticky .navigation li a i{
+	color:#144c7d;
+}
+.sub-menu {
+	display: none;
+	position: absolute;
+	width:100%;
+	left:10px;
+	top:61px;
+	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+	border-radius:3px;
+	z-index: 99;
+}
+.sub-menu li a {
+	color:#ffffff;
+	opacity: 0.6;
+}
+.navigation li .sub-menu li{
+	display: block;
+} 
+.storyagent-header.sticky .sub-menu{
+	background: #ffffff;
+	
+}
+
+
+
+/*
+ 7.) Footer Styles
+ ------------------------------*/
+
+#footer {
+	
+}
+.storyagent-footer{
+	background: #144c7d;
+	padding: 46px 0;
+}
+.footer-cont p{
+	max-width:380px;
+	width:100%;
+	margin: 0 auto 40px;
+}
+.contact-btn{
+	margin-bottom: 40px;
+	padding: 0;
+}
+.contact-btn li{
+	display: inline-block;
+	margin: 0 22px 10px;
+}
+.contact-btn li a{
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.7em !important;
+    padding: 0.3em 1em;
+    position: relative;
+    transition: all 0.2s ease 0s;
+    display: block;
+    position: relative;
+}
+.contact-btn li a::before{
+	content:"";
+	background:url('../images/next.png') no-repeat scroll center right;
+	width:10px;
+	height:15px;
+	right:10px;
+	top:50%;
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	display: none;
+	transition: all 0.2s ease 0s;
+}
+.contact-btn li a:hover::before{
+	display: block;
+}
+.contact-btn li a:hover{
+	padding: 0.3em 2em 0.3em 1em;
+	background: rgba(255, 255, 255, 0.2);
+	border:2px solid rgba(0, 0, 0, 0);
+	text-decoration: none;
+}
+.social-link{
+	padding: 0;
+	margin: 0 0 25px 0;
+}
+.social-link li{
+	display: inline-block;
+}
+.social-link li i{
+	width:35px;
+	height:35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

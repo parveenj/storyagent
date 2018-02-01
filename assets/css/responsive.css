@@ -1,0 +1,228 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+
+@media only screen and (max-width : 1199px) {
+	
+/* Styles */
+
+/**** 3.) About ****/
+
+.about-banner-cont h1{
+	margin-bottom: 100px;
+}
+.inner-about-banner{
+	margin-bottom: 150px;
+}
+.map-cont{
+	bottom:60px;
+}
+
+
+}
+
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen  and (max-width : 991px) {
+/* Styles */
+
+
+/**** 1.) Homepage ****/
+
+.storyagent-section-two{
+	background: none;
+	padding: 55px 0;
+}
+.section-two-fig{
+	margin-bottom: 30px;
+}
+.section-two-fig img{
+	width:100%;
+}
+.storyagent-section-one strong{
+	line-height: 1.1;
+    padding-bottom: 20px;
+}
+
+/**** 2.) fireeye ****/
+
+/**** 3.) About ****/
+
+.about-banner-cont h1{
+	margin-bottom: 50px;
+}
+.inner-about-banner{
+	margin-bottom: 100px;
+}
+.map-cont{
+	bottom:40px;
+	width: 290px;
+	padding: 8px;
+}
+.map-cont p{
+	font-size: 14px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin: 0;
+}
+
+
+
+}
+
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 767px){
+/* Mobile Grids */
+
+/**** 1.) Homepage ****/
+
+.storyagent-header.sticky{
+	position: relative;
+}
+.header-nav{
+	width:50%;
+}
+.navigation{
+	background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+    border-radius: 3px;
+    position: absolute;
+    top: 60px;
+    width: 290px;
+    z-index: 999;
+    right:0px;
+}
+.navigation li {
+    line-height: 1.2;
+    list-style-type: none;
+    padding: 8px;
+    position: relative;
+    display: block;
+}
+.navigation li a,.navigation li a i{
+	color: #ffffff;
+    opacity: 0.6;
+}
+.sub-menu{
+	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    border-radius: 3px;
+    left: 0;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    z-index: 99;
+}
+.navbar-toggle-btn{
+	display: block;
+}
+.navbar-toggle-btn:focus,.navbar-toggle-btn:active,.navbar-toggle-btn:hover{
+	border:0;
+}
+.navigation{
+	display: none;
+}
+.tab-pane{
+	padding: 30px;
+}
+.storyagent-section-two{
+	padding: 50px 0 20px;
+}
+.storyagent-section-three h3{
+	line-height: 1.3;
+	margin-bottom: 20px;
+}
+.tabs .nav-tabs > li{
+	width:100%;
+}
+
+/**** 2.) fireeye ****/
+
+.fireeye-sec-three h4 strong{
+	margin-bottom: 15px;
+}
+
+/**** 3.) About ****/
+
+.about-banner-cont h1{
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.storyagent-venn-sec figure{
+	text-align:center;
+}
+.inner-about-banner{
+	padding: 5px 10px;
+	margin-bottom: 5px;
+}
+.storyagent-about-banner p{
+	font-size: 11px;
+}
+.inner-about-banner-02{
+	padding: 5px;
+}
+.storyagent-venn-sec ,.storyagent-ideal-process{
+	padding: 20px 0;
+}
+.storyagent-venn-sec p{
+	width:100%;
+}
+.ideal-process-block ul{
+	margin: 0 0 25px;
+}
+.resume-block{
+	padding: 20px 0;
+}
+.resume-block strong{
+	display: block;
+	margin: 0 0 20px 0;
+	font-size: 20px;
+}
+.map-cont{
+	bottom: 15px;
+    padding: 4px;
+    right: 10px;
+    width: 150px;
+}
+.map-cont p{
+	font-size: 10px;
+    line-height: 1.1;
+    margin: 0;
+}
+.about-banner-cont{
+	top: 19%;
+}
+
+
+/**** 4.) Portfolio ****/
+
+.storyagent-portfolio-one{
+	padding: 120px 0 20px;
+}
+.storyagent-portfolio-two .mb-135{
+	margin-bottom: 30px !important;
+}
+.portfolio-sidebar figure{
+	text-align:center;
+}
+.storyagent-portfolio-one p, .storyagent-portfolio-two p{
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+}
+
