@@ -1,0 +1,215 @@
+0000.000 (0) Opened log file at time: Mon, 05 Sep 2016 07:30:33 +0000 on http://storyagent.co
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6 PHP: 5.5.38 (Linux biz186.inmotionhosting.com 2.6.32-673.8.1.lve1.4.3.1.el6.x86_64 #1 SMP Thu May 5 16:06:47 EDT 2016 x86_64) MySQL: 5.6.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 29.5M | 30M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.097 (0) Free space on disk containing Updraft's temporary directory: 97698 MB
+0000.100 (0) Tasks: Backup files: 1 (schedule: fortnightly) Backup DB: 1 (schedule: fortnightly)
+0000.105 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.108 (0) Semaphore (fd) was stuck, set lock time to 2016-09-05 07:30:33
+0000.109 (0) Semaphore (fd) reset to 1
+0000.110 (0) Set semaphore last lock (fd) time to 2016-09-05 07:30:33
+0000.111 (0) Semaphore lock (fd) complete
+0000.122 (0) Backup run: resumption=0, nonce=3a468848e857, begun at=1473060633 (0s ago), job type=backup
+0000.125 (0) Scheduling a resumption (1) after 600 seconds (1473061233) in case this run gets aborted
+0000.135 (0) Checking if we have a zip executable available
+0000.138 (0) Testing: /usr/bin/zip
+0000.147 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.152 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.154 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.155 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.156 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.164 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.167 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.175 (0) Working binary zip found: /usr/bin/zip
+0000.183 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.185 (0) Creation of backups of directories: beginning
+0000.191 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.463 (0) Total entities for the zip file: 657 directories, 4055 files (0 skipped as non-modified), 62.9 MB
+0000.784 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.792 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.796 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.800 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.809 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.810 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 4055 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0015.531 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 2.00 MB
+0015.539 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 600 files added (on-disk size: 2011.7 KB)
+0015.544 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 700 files added (on-disk size: 2011.7 KB)
+0015.549 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 800 files added (on-disk size: 2011.7 KB)
+0015.552 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 900 files added (on-disk size: 2011.7 KB)
+0015.555 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1000 files added (on-disk size: 2011.7 KB)
+0015.556 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 4055 files batched, 501 (1002) added so far); re-opening (prior size: 2011.7 KB)
+0025.166 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 3.40 MB
+0025.198 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1100 files added (on-disk size: 3515.4 KB)
+0025.204 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1200 files added (on-disk size: 3515.4 KB)
+0025.208 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1300 files added (on-disk size: 3515.4 KB)
+0025.212 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1400 files added (on-disk size: 3515.4 KB)
+0025.215 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1500 files added (on-disk size: 3515.4 KB)
+0025.216 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.7 MB, 4055 files batched, 501 (1503) added so far); re-opening (prior size: 3515.4 KB)
+0039.161 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 6.90 MB
+0039.168 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1600 files added (on-disk size: 7086.7 KB)
+0039.172 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1700 files added (on-disk size: 7086.7 KB)
+0039.176 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1800 files added (on-disk size: 7086.7 KB)
+0039.179 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 1900 files added (on-disk size: 7086.7 KB)
+0039.182 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2000 files added (on-disk size: 7086.7 KB)
+0039.183 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.1 MB, 4055 files batched, 501 (2004) added so far); re-opening (prior size: 7086.7 KB)
+0051.460 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 9.50 MB
+0051.472 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2100 files added (on-disk size: 9682.6 KB)
+0051.477 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2200 files added (on-disk size: 9682.6 KB)
+0051.484 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2300 files added (on-disk size: 9682.6 KB)
+0051.487 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2400 files added (on-disk size: 9682.6 KB)
+0051.491 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2500 files added (on-disk size: 9682.6 KB)
+0051.508 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12.8 MB, 4055 files batched, 501 (2505) added so far); re-opening (prior size: 9682.6 KB)
+0071.298 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 12.30 MB
+0071.306 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2600 files added (on-disk size: 12571.1 KB)
+0071.312 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2700 files added (on-disk size: 12571.1 KB)
+0071.316 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2800 files added (on-disk size: 12571.1 KB)
+0071.319 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 2900 files added (on-disk size: 12571.1 KB)
+0071.323 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3000 files added (on-disk size: 12571.1 KB)
+0071.325 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.1 MB, 4055 files batched, 501 (3006) added so far); re-opening (prior size: 12571.1 KB)
+0087.766 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 16.10 MB
+0087.775 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3100 files added (on-disk size: 16495.5 KB)
+0087.784 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3200 files added (on-disk size: 16495.5 KB)
+0087.788 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3300 files added (on-disk size: 16495.5 KB)
+0087.793 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3400 files added (on-disk size: 16495.5 KB)
+0087.797 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3500 files added (on-disk size: 16495.5 KB)
+0087.799 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (13.3 MB, 4055 files batched, 501 (3507) added so far); re-opening (prior size: 16495.5 KB)
+0122.762 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: size is now: 20.20 MB
+0122.792 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3600 files added (on-disk size: 20662.7 KB)
+0122.798 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3700 files added (on-disk size: 20662.7 KB)
+0122.804 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3800 files added (on-disk size: 20662.7 KB)
+0122.810 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 3900 files added (on-disk size: 20662.7 KB)
+0122.815 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip.tmp: 4000 files added (on-disk size: 20662.7 KB)
+0122.817 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2 MB, 4055 files batched, 501 (4008) added so far); re-opening (prior size: 20662.7 KB)
+0166.988 (0) Created plugins zip (0) - 21457.8 KB in 166.7 s (128.7 KB/s) (SHA1 checksum: 7e04010afe3dcb3c8513a4c4358695b0a49cca49)
+0167.007 (0) Beginning creation of dump of themes (split every: 400 MB)
+0167.192 (0) Total entities for the zip file: 42 directories, 453 files (0 skipped as non-modified), 22 MB
+0167.198 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0167.239 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0167.244 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0167.250 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0194.479 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-themes.zip.tmp: size is now: 6.10 MB
+0194.520 (0) Created themes zip (0) - 6244.8 KB in 27.4 s (227.9 KB/s) (SHA1 checksum: ba23f89196923c66ef2f1689a7e5be16c799bbb7)
+0194.525 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0194.527 (0) Looking for candidates to back up in: /home/storya7/public_html/wp-content/uploads
+0194.529 (0) finding files: 2014: adding to list (1)
+0194.530 (0) finding files: master-slider: adding to list (2)
+0194.531 (0) finding files: masterslider: adding to list (3)
+0194.532 (0) finding files: et_temp: adding to list (4)
+0194.533 (0) finding files: 2013: adding to list (5)
+0194.534 (0) finding files: 2016: adding to list (6)
+0194.535 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0194.739 (0) Total entities for the zip file: 19 directories, 2139 files (0 skipped as non-modified), 314.9 MB
+0194.837 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0194.841 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.4 MB, 2139 files batched, 143 (143) added so far); re-opening (prior size: 0 KB)
+0247.997 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 25.40 MB
+0248.002 (0) A useful amount of data was added after this amount of zip processing: 53.8 s (normalised: 53 s, rate: 483.3 KB/s)
+0248.005 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 200 files added (on-disk size: 26034.7 KB)
+0248.007 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.3 MB, 2139 files batched, 71 (214) added so far); re-opening (prior size: 26034.7 KB)
+0318.949 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 50.70 MB
+0318.954 (0) A useful amount of data was added after this amount of zip processing: 71.8 s (normalised: 71 s, rate: 360.8 KB/s)
+0318.958 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 300 files added (on-disk size: 51922.4 KB)
+0318.963 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 400 files added (on-disk size: 51922.4 KB)
+0318.965 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 2139 files batched, 221 (435) added so far); re-opening (prior size: 51922.4 KB)
+0369.778 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=587777 (line 1858, wp-includes/wp-db.php)
+0419.658 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 75.80 MB
+0419.662 (0) A useful amount of data was added after this amount of zip processing: 101.5 s (normalised: 101.1 s, rate: 253.1 KB/s)
+0419.667 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 500 files added (on-disk size: 77645.6 KB)
+0419.670 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 2139 files batched, 143 (578) added so far); re-opening (prior size: 77645.6 KB)
+0495.557 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=587777 (line 1858, wp-includes/wp-db.php)
+0543.660 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 100.90 MB
+0543.686 (0) A useful amount of data was added after this amount of zip processing: 124.5 s (normalised: 124.3 s, rate: 205.9 KB/s)
+0543.693 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 600 files added (on-disk size: 103305 KB)
+0543.723 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 700 files added (on-disk size: 103305 KB)
+0543.736 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (26 MB, 2139 files batched, 145 (723) added so far); re-opening (prior size: 103305 KB)
+0601.759 (1) Opened log file at time: Mon, 05 Sep 2016 07:40:35 +0000 on http://storyagent.co
+0601.783 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6 PHP: 5.5.38 (Linux biz186.inmotionhosting.com 2.6.32-673.8.1.lve1.4.3.1.el6.x86_64 #1 SMP Thu May 5 16:06:47 EDT 2016 x86_64) MySQL: 5.6.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 25.2M | 25.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0601.899 (1) Free space on disk containing Updraft's temporary directory: 97287.8 MB
+0601.924 (1) Backup run: resumption=1, nonce=3a468848e857, begun at=1473060633 (602s ago), job type=backup, previous check-in=543.7s
+0601.948 (1) Scheduling a resumption (2) after 600 seconds (1473061835) in case this run gets aborted
+0601.971 (1) Checking if we have a zip executable available
+0601.984 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0602.006 (1) Creation of backups of directories: had begun; will resume
+0602.054 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0602.077 (1) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip: this file has already been created (age: 435 s)
+0602.102 (1) Terminate: zi11hlrN exists with activity within the last 30 seconds (time_mod=1473061235, time_now=1473061235, diff=0, size=1497.7KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0602.126 (1) Rescheduling resumption 2: moving to 720 seconds from now (1473061955)
+0602.149 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 600 + 120 = 720
+0682.461 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=587777 (line 1858, wp-includes/wp-db.php)
+0682.487 (0) The time we have been running (682.5) is approaching the resumption interval (600) - increasing resumption interval to 713
+0691.904 (0) The time we have been running (691.9) is approaching the resumption interval (713) - increasing resumption interval to 722
+0698.055 (0) The time we have been running (698.1) is approaching the resumption interval (722) - increasing resumption interval to 729
+0703.658 (0) The time we have been running (703.7) is approaching the resumption interval (729) - increasing resumption interval to 734
+0712.422 (0) The time we have been running (712.4) is approaching the resumption interval (734) - increasing resumption interval to 743
+0719.440 (0) The time we have been running (719.4) is approaching the resumption interval (743) - increasing resumption interval to 750
+0729.624 (0) The time we have been running (729.6) is approaching the resumption interval (750) - increasing resumption interval to 760
+0735.861 (0) The time we have been running (735.9) is approaching the resumption interval (760) - increasing resumption interval to 766
+0741.512 (0) The time we have been running (741.5) is approaching the resumption interval (766) - increasing resumption interval to 772
+0742.288 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 127.00 MB
+0742.317 (0) The time we have been running (742.3) is approaching the resumption interval (772) - increasing resumption interval to 773
+0742.343 (0) A useful amount of data was added after this amount of zip processing: 199.1 s (normalised: 191.1 s, rate: 133.9 KB/s)
+0742.376 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 800 files added (on-disk size: 130004.8 KB)
+0742.398 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.8 MB, 2139 files batched, 166 (889) added so far); re-opening (prior size: 130004.8 KB)
+0809.664 (1) Opened log file at time: Mon, 05 Sep 2016 07:44:03 +0000 on http://storyagent.co
+0809.676 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6 PHP: 5.5.38 (Linux biz186.inmotionhosting.com 2.6.32-673.8.1.lve1.4.3.1.el6.x86_64 #1 SMP Thu May 5 16:06:47 EDT 2016 x86_64) MySQL: 5.6.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 25.2M | 25.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0809.828 (1) Free space on disk containing Updraft's temporary directory: 97123.5 MB
+0809.881 (1) Backup run: resumption=1, nonce=3a468848e857, begun at=1473060633 (810s ago), job type=backup, previous check-in=742.4s
+0809.907 (1) Scheduling a resumption (2) after 773 seconds (1473062216) in case this run gets aborted
+0809.941 (1) Checking if we have a zip executable available
+0809.988 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0810.020 (1) Creation of backups of directories: had begun; will resume
+0810.073 (1) Beginning creation of dump of plugins (split every: 400 MB)
+0810.133 (1) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip: this file has already been created (age: 643 s)
+0810.162 (1) Terminate: ziNWt10B exists with activity within the last 30 seconds (time_mod=1473061443, time_now=1473061443, diff=0, size=3424KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+0810.208 (1) Rescheduling resumption 2: moving to 600 seconds from now (1473062044)
+0810.240 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 773 + 120 = 893
+0915.572 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=587777 (line 1858, wp-includes/wp-db.php)
+0915.579 (0) The time we have been running (915.6) is approaching the resumption interval (773) - increasing resumption interval to 946
+0921.556 (0) The time we have been running (921.3) is approaching the resumption interval (946) - increasing resumption interval to 952
+0927.216 (0) The time we have been running (927.2) is approaching the resumption interval (952) - increasing resumption interval to 958
+0933.346 (0) The time we have been running (933.3) is approaching the resumption interval (958) - increasing resumption interval to 964
+0939.396 (0) The time we have been running (939.4) is approaching the resumption interval (964) - increasing resumption interval to 970
+0945.402 (0) The time we have been running (945.4) is approaching the resumption interval (970) - increasing resumption interval to 976
+0951.701 (0) The time we have been running (951.7) is approaching the resumption interval (976) - increasing resumption interval to 982
+0962.892 (0) The time we have been running (962.9) is approaching the resumption interval (982) - increasing resumption interval to 993
+0968.376 (0) The time we have been running (968.4) is approaching the resumption interval (993) - increasing resumption interval to 999
+0974.708 (0) The time we have been running (974.7) is approaching the resumption interval (999) - increasing resumption interval to 1005
+0980.314 (0) The time we have been running (980.3) is approaching the resumption interval (1005) - increasing resumption interval to 1011
+0987.328 (0) The time we have been running (987.3) is approaching the resumption interval (1011) - increasing resumption interval to 1018
+0988.322 (0) backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: size is now: 152.80 MB
+0988.329 (0) The time we have been running (988.3) is approaching the resumption interval (1018) - increasing resumption interval to 1019
+0988.336 (0) A useful amount of data was added after this amount of zip processing: 246.1 s (normalised: 238.7 s, rate: 107.2 KB/s)
+0988.345 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 900 files added (on-disk size: 156433.1 KB)
+0988.354 (0) Zip: backup_2016-09-05-0730_Story_Agent_3a468848e857-uploads.zip.tmp: 1000 files added (on-disk size: 156433.1 KB)
+0988.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 2139 files batched, 160 (1049) added so far); re-opening (prior size: 156433.1 KB)
+1115.816 (1) Opened log file at time: Mon, 05 Sep 2016 07:49:09 +0000 on http://storyagent.co
+1115.831 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.12.20 WP: 4.6 PHP: 5.5.38 (Linux biz186.inmotionhosting.com 2.6.32-673.8.1.lve1.4.3.1.el6.x86_64 #1 SMP Thu May 5 16:06:47 EDT 2016 x86_64) MySQL: 5.6.29 WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 25.2M | 25.5M) multisite: N openssl: OpenSSL 1.0.1e-fips 11 Feb 2013 mcrypt: Y LANG:  ZipArchive::addFile: Y
+1115.931 (1) Free space on disk containing Updraft's temporary directory: 97007 MB
+1115.959 (1) Backup run: resumption=1, nonce=3a468848e857, begun at=1473060633 (1116s ago), job type=backup, previous check-in=988.3s
+1115.968 (1) Scheduling a resumption (2) after 1019 seconds (1473062768) in case this run gets aborted
+1116.002 (1) Checking if we have a zip executable available
+1116.018 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+1116.045 (1) Creation of backups of directories: had begun; will resume
+1116.081 (1) Beginning creation of dump of plugins (split every: 400 MB)
+1116.104 (1) backup_2016-09-05-0730_Story_Agent_3a468848e857-plugins.zip: this file has already been created (age: 949 s)
+1116.125 (1) Terminate: zi2mdKfY exists with activity within the last 30 seconds (time_mod=1473061749, time_now=1473061749, diff=0, size=56160KB). This likely means that another UpdraftPlus run is at work; so we will exit.
+1116.151 (1) Rescheduling resumption 2: moving to 600 seconds from now (1473062349)
+1116.170 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 1019 + 120 = 1139
+1227.743 (0) PHP event: code E_WARNING: Error while sending QUERY packet. PID=587777 (line 1858, wp-includes/wp-db.php)
+1227.767 (0) The time we have been running (1227.7) is approaching the resumption interval (1019) - increasing resumption interval to 1258
+1233.493 (0) The time we have been running (1233.5) is approaching the resumption interval (1258) - increasing resumption interval to 1264
+1239.235 (0) The time we have been running (1239.2) is approaching the resumption interval (1264) - increasing resumption interval to 1270
+1248.344 (0) The time we have been running (1248.3) is approaching the resumption interval (1270) - increasing resumption interval to 1279
+1254.428 (0) The time we have been running (1254.4) is approaching the resumption interval (1279) - increasing resumption interval to 1285
+1260.236 (0) The time we have been running (1260.2) is approaching the resumption interval (1285) - increasing resumption interval to 1291
+1267.348 (0) The time we have been running (1267.3) is approaching the resumption interval (1291) - increasing resumption interval to 1298
+1273.391 (0) The time we have been running (1273.4) is approaching the resumption interval (1298) - increasing resumption interval to 1304
+1279.704 (0) The time we have been running (1279.7) is approaching the resumption interval (1304) - increasing resumption interval to 1310
+1286.798 (0) The time we have been running (1286.8) is approaching the resumption interval (1310) - increasing resumption interval to 1317
+1293.487 (0) The time we have been running (1293.5) is approaching the resumption interval (1317) - increasing resumption interval to 1324
+1294.037 (0) The time we have been running (1294) is approaching the resumption interval (1324) - increasing resumption interval to 1325
+1294.048 (0) User request for abort: backup job will be immediately halted
+1294.051 (0) Decremented the semaphore (fd) by 1
+1294.054 (0) Semaphore (fd) still locked (0)
+1294.062 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+1294.090 (0) Fetching RSS news feed
+1294.151 (0) Fetched RSS news feed; result is a: SimplePie
+1294.167 (0) Sending email ('The backup was aborted by the user') report (attachments: 0, size: 0 KB) to: conta...
+1294.366 (0) The backup was aborted by the user
