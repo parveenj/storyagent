@@ -1,0 +1,44 @@
+---
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include header.html %}
+
+	<body>
+		<!--Page Wrapper Start-->
+		<div id="wrapper">
+
+{% include navigation.html %}
+
+<section class="storyagent-portfolio-one">
+			<!--StoryAgent Content Area-->
+			<div class="container">
+
+{% include scroll.html %}
+
+{% include nextpost.html %}
+
+      <h2>{{ page.title }}</h2>
+
+{{content}}
+
+{% include nextpost.html %}
+
+			</div>
+			<!--StoryAgent Content Area-->
+</section>
+
+
+
+{% include footer.html %}
+
+		</div>
+		<!--Page Wrapper End-->
+
+{% include script.html %}
+
+	</body>
+</html>
