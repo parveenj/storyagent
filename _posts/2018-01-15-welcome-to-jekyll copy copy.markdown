@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Stack these!"
+title:  "And those birds stunk"
 date:   2018-01-30 21:54:15 -0800
 categories: jekyll update
 ---

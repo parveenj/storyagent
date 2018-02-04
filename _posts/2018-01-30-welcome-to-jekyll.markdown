@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Suck these!"
+title:  "Eating too much trash"
 date:   2018-01-05 21:54:15 -0800
 categories: jekyll update
 ---
