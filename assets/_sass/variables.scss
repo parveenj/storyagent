@@ -1,0 +1,23 @@
+---
+
+---
+
+@import "global";
+@import "responsive";
+@import "style";
+
+// Typography
+$sa-font:  'Open Sans', sans-serif;
+$sa-font-size: 16px;
+$sa-line-height: 22px;
+
+// Colors
+$sa-grey: #666666;
+$sa-white: #FFFFFF;
+$sa-blue: #323288;
+
+//Spacing
+$sa-spacer-sm: 20px;
+$sa-spacer-md: 40px;
+$sa-spacer-lg: 60px;
+$sa-spacer-xl: 80px;
