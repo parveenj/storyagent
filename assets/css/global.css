@@ -71,7 +71,7 @@ h6 {
 }
 
 /*
- 3.) General Text Formatting
+ 3.) General Typography
  -----------------------------------*/
 p {
 	font-size: 17px;
@@ -85,9 +85,9 @@ img {
 }
 
 /*
- 4.) Sprite Icons
+ 4.) Footer Icons
  -------------------------*/
-[class^="icon-"], [class*="icon-"] {
+[class^="footer__icon--"], [class*="footer__icon--"] {
 	background-image: url(../images/sprite.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
@@ -98,25 +98,25 @@ img {
 	vertical-align: text-top;
 	width: 35px;
 }
-.icon-ln{
+.footer__icon--ln{
 	background-position: 0 0;
 }
-.icon-tw{
+.footer__icon--tw{
 	background-position: 0 -37px;
 }
-.icon-fb{
+.footer__icon--fb{
 	background-position: 0 -74px;
 }
-.icon-pint{
+.footer__icon--pint{
 	background-position: 0 -110px;
 }
-.icon-rss{
+.footer__icon--rss{
 	background-position: 0 -147px;
 }
 
 
 /*
- 5.) Site Wide Content
+ 5.) General Text
  ------------------------------*/
 #wrapper {
 	position: relative;
@@ -313,13 +313,10 @@ h4 strong{
  ------------------------------*/
 
 #footer {
-
-}
-.storyagent-footer{
 	background: #144c7d;
 	padding: 46px 0;
 }
-.footer-cont p{
+.footer__container p{
 	max-width:380px;
 	width:100%;
 	margin: 0 auto 40px;
@@ -371,14 +368,14 @@ h4 strong{
 	border:2px solid rgba(0, 0, 0, 0);
 	text-decoration: none;
 }
-.social-link{
+.footer__icon-set{
 	padding: 0;
 	margin: 0 0 25px 0;
 }
-.social-link li{
+.footer__icon-set li{
 	display: inline-block;
 }
-.social-link li i{
+.footer__icon-set li i{
 	width:35px;
 	height:35px;
 }
