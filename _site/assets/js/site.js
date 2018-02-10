@@ -1,16 +1,16 @@
 (function($) {
 
 	// Menu Slide
-	
+
 	$(".navbar-toggle-btn").click(function() {
 		$('.navigation').slideToggle();
-	}) 	
-	
+	})
+
 	$(".navigation li a").click(function() {
 		$(this).next('.sub-menu').slideToggle();
 	})
-	
-	
+
+
 	//StoryAgent
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 1000) {
@@ -19,16 +19,16 @@
 			$('.scrollToTop').removeClass('show');
 		}
 	});
-	
+
 	// StoryAgent Stickey Start
 
 	var win_width = $(window).width();
 	if (win_width > 980) {
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 1) {
-				$('.storyagent-header').addClass("sticky");
+				$('.header__container').addClass("sticky");
 			} else {
-				$('.storyagent-header').removeClass("sticky");
+				$('.header__container').removeClass("sticky");
 			}
 		});
 	}
@@ -38,7 +38,7 @@
 		$('.section-scroll-web li').removeClass('active');
 		$(this).addClass('active');
 		var attr_val = $(this).find('a').attr('href');
-		var scroll_off = $(attr_val).offset().top-$('.storyagent-header').outerHeight();
+		var scroll_off = $(attr_val).offset().top-$('.header__container').outerHeight();
 		$("html,body").animate({
 			scrollTop : scroll_off
 		}, 500);
@@ -63,12 +63,12 @@
 		}
 	})
 	// StoryAgent Section Scroll End
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	//StoryAgent to scroll to top
 	$('.scrollToTop').click(function(){
 		$('html, body').animate({scrollTop : 0},800);
@@ -77,4 +77,3 @@
 
 
 })(jQuery);
-

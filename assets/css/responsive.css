@@ -9,7 +9,7 @@
  ===============================*/
 
 @media only screen and (max-width : 1199px) {
-	
+
 /* Styles */
 
 /**** 3.) About ****/
@@ -87,7 +87,7 @@
 
 /**** 1.) Homepage ****/
 
-.storyagent-header.sticky{
+.header__container.sticky{
 	position: relative;
 }
 .header-nav{
@@ -225,4 +225,3 @@
 
 
 }
-
