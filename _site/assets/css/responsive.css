@@ -124,10 +124,10 @@
     width: 100%;
     z-index: 99;
 }
-.header__navigation--hamburger{
+.header__burger{
 	display: block;
 }
-.header__navigation--hamburger:focus,.header__navigation--hamburger:active,.header__navigation--hamburger:hover{
+.header__burger:focus,.header__burger:active,.header__burger:hover{
 	border:0;
 }
 .header__navigation{

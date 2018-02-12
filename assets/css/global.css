@@ -221,7 +221,7 @@ h4 strong{
 .header__container.sticky .header__logo img{
 	width:85%;
 }
-.header__navigation--hamburger{
+.header__burger{
 	width:20px;
 	height:14px;
 	background: transparent;
@@ -235,7 +235,7 @@ h4 strong{
 	float: right;
 	display: none;
 }
-.header__navigation--hamburgerbar{
+.header__bar{
 	width:20px;
 	height: 2px;
 	background:#2ea3f2;
