@@ -7,7 +7,7 @@
 	})
 
 	$(".header__navigation li a").click(function() {
-		$(this).next('.sub-menu').slideToggle();
+		$(this).next('.header__dropdown').slideToggle();
 	})
 
 
