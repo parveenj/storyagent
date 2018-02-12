@@ -21,7 +21,7 @@ description: "Product design with stories in mind"
 title: Story Agent
 email: parveen@storyagent.design
 description: > # this means to ignore newlines until "baseurl:"
-  What up fools, I be crushing this joint.
+  Product design with stories in mind
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: parveenj

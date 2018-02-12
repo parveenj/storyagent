@@ -175,11 +175,9 @@ h4 strong{
 
 
 /*
- 6.) Header Styles
+ 6.) Header
  ------------------------------*/
-#header {
 
-}
 .header__logo{
 	float: left;
 }
@@ -223,7 +221,7 @@ h4 strong{
 .header__container.sticky .header__logo img{
 	width:85%;
 }
-.navbar-toggle-btn{
+.header__navigation--hamburger{
 	width:20px;
 	height:14px;
 	background: transparent;
@@ -237,7 +235,7 @@ h4 strong{
 	float: right;
 	display: none;
 }
-.icon-bar{
+.header__navigation--hamburgerbar{
 	width:20px;
 	height: 2px;
 	background:#2ea3f2;

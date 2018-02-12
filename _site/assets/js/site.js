@@ -2,7 +2,7 @@
 
 	// Menu Slide
 
-	$(".navbar-toggle-btn").click(function() {
+	$(".header__navigation--hamburger").click(function() {
 		$('.header__navigation').slideToggle();
 	})
 
