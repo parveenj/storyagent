@@ -3061,7 +3061,7 @@
 		}
 	};
 
-	$.fn.owlCarousel.Constructor.Plugins.Navigation = Navigation;
+	$.fn.owlCarousel.Constructor.Plugins.header__navigation = Navigation;
 
 })(window.Zepto || window.jQuery, window, document);
 
@@ -3109,7 +3109,7 @@
 		this._handlers = {
 			'initialized.owl.carousel': $.proxy(function(e) {
 				if (e.namespace && this._core.settings.startPosition === 'URLHash') {
-					$(window).trigger('hashchange.owl.navigation');
+					$(window).trigger('hashchange.owl.header__navigation');
 				}
 			}, this),
 			'prepared.owl.carousel': $.proxy(function(e) {
@@ -3146,7 +3146,7 @@
 		this.$element.on(this._handlers);
 
 		// register event listener for hash navigation
-		$(window).on('hashchange.owl.navigation', $.proxy(function(e) {
+		$(window).on('hashchange.owl.header__navigation', $.proxy(function(e) {
 			var hash = window.location.hash.substring(1),
 				items = this._core.$stage.children(),
 				position = this._hashes[hash] && items.index(this._hashes[hash]);
@@ -3174,7 +3174,7 @@
 	Hash.prototype.destroy = function() {
 		var handler, property;
 
-		$(window).off('hashchange.owl.navigation');
+		$(window).off('hashchange.owl.header__navigation');
 
 		for (handler in this._handlers) {
 			this._core.$element.off(handler, this._handlers[handler]);

@@ -3,10 +3,10 @@
 	// Menu Slide
 
 	$(".navbar-toggle-btn").click(function() {
-		$('.navigation').slideToggle();
+		$('.header__navigation').slideToggle();
 	})
 
-	$(".navigation li a").click(function() {
+	$(".header__navigation li a").click(function() {
 		$(this).next('.sub-menu').slideToggle();
 	})
 

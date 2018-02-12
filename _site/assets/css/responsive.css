@@ -90,11 +90,13 @@
 .header__container.sticky{
 	position: relative;
 }
+/* KIWI Don't need no more
 .header-nav{
 	width:50%;
 }
-.navigation{
-	background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
+*/
+.header__navigation{
+		background: rgba(0, 0, 0, 0.9) none repeat scroll 0 0;
     border-radius: 3px;
     position: absolute;
     top: 60px;
@@ -102,14 +104,14 @@
     z-index: 999;
     right:0px;
 }
-.navigation li {
+.header__navigation li {
     line-height: 1.2;
     list-style-type: none;
     padding: 8px;
     position: relative;
     display: block;
 }
-.navigation li a,.navigation li a i{
+.header__navigation li a,.header__navigation li a i{
 	color: #ffffff;
     opacity: 0.6;
 }
@@ -128,7 +130,7 @@
 .navbar-toggle-btn:focus,.navbar-toggle-btn:active,.navbar-toggle-btn:hover{
 	border:0;
 }
-.navigation{
+.header__navigation{
 	display: none;
 }
 .tab-pane{

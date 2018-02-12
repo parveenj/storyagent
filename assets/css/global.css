@@ -180,13 +180,15 @@ h4 strong{
 #header {
 
 }
-.logo{
+.header__logo{
 	float: left;
 }
+/* KIWI Don't need no more
 .header-nav{
 	float: right;
 	position: relative;
 }
+*/
 .header__container{
 	margin: 0 auto;
 	position: absolute;
@@ -200,6 +202,7 @@ h4 strong{
     -o-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
     transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
     z-index: 99;
+		width: 90%;
 }
 .header__container.sticky{
 	position: fixed;
@@ -209,7 +212,7 @@ h4 strong{
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	z-index: 99;
 }
-.header__container .logo img{
+.header__container .header__logo img{
 	-webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
     -ms-transition: all 0.4s ease-in-out 0s;
@@ -217,7 +220,7 @@ h4 strong{
     transition: all 0.4s ease-in-out 0s;
     width:100%;
 }
-.header__container.sticky .logo img{
+.header__container.sticky .header__logo img{
 	width:85%;
 }
 .navbar-toggle-btn{
@@ -241,17 +244,21 @@ h4 strong{
 	margin-bottom: 4px;
 	display: block;
 }
-.navigation ul{
+.header__navigation {
+	float: right;
+	position: relative;
+}
+.header__navigation ul{
 	padding: 0;
 }
-.navigation li {
+.header__navigation li {
 	line-height: 1.2;
 	list-style-type: none;
 	display: inline-block;
 	padding: 8px 22px;
 	position: relative;
 }
-.navigation li a {
+.header__navigation li a {
 	border: medium none;
 	color:#000000;
 	padding: 5px;
@@ -265,11 +272,11 @@ h4 strong{
 	position: relative;
 	display: inline-block;
 }
-.navigation li a:hover,.navigation li a:focus{
+.header__navigation li a:hover,.header__navigation li a:focus{
 	opacity: 0.7;
 	text-decoration: none;
 }
-.navigation li a i{
+.header__navigation li a i{
 	background: none;
 	height: inherit;
 	width: inherit;
@@ -280,8 +287,8 @@ h4 strong{
 	display: inline-block;
 	vertical-align: middle;
 }
-.header__container.sticky .navigation li a,
-.header__container.sticky .navigation li a i{
+.header__container.sticky .header__navigation li a,
+.header__container.sticky .header__navigation li a i{
 	color:#144c7d;
 }
 .sub-menu {
@@ -298,7 +305,7 @@ h4 strong{
 	color:#ffffff;
 	opacity: 0.6;
 }
-.navigation li .sub-menu li{
+.header__navigation li .sub-menu li{
 	display: block;
 }
 .header__container.sticky .sub-menu{
