@@ -46,6 +46,8 @@
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+
+/*-- KIWI Do not need tabs anymore
 .tabs {
 	border: 1px solid #d9d9d9;
 	background: #ffffff;
@@ -86,6 +88,9 @@
 .tab-pane {
 	padding: 74px 59px 62px;
 }
+
+--*/
+
 .storyagent-section-three {
 	padding: 26px 0;
 }
