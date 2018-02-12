@@ -38,58 +38,6 @@
 	text-align: center;
 	padding-bottom: 10px;
 }
-.storyagent-section-two {
-	background: url('../images/Homepage-MyMug-v4.png');
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	padding: 67px 0 93px;
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-
-/*-- KIWI Do not need tabs anymore
-.tabs {
-	border: 1px solid #d9d9d9;
-	background: #ffffff;
-	border-radius: 5px;
-}
-.tabs .nav-tabs {
-	background-color: #f4f4f4;
-}
-.tabs .nav-tabs > li {
-	border-right: 1px solid #d9d9d9;
-	width: 25%;
-	text-align: center;
-	margin: 0;
-	border-bottom: 1px solid #d9d9d9;
-}
-.tabs .nav-tabs > li.active a {
-	background-color: #ffffff;
-	color: #333333 !important;
-}
-.nav-tabs > li > a, .tabs .nav-tabs > li.active a {
-	font-size: 18px;
-	line-height: 50px;
-	padding: 5px;
-	color: #666666;
-	font-family: 'Dosis', sans-serif;
-	font-weight: 700;
-	display: block;
-	padding: 0;
-	border: 0;
-	margin: 0;
-}
-.tab-content p {
-	font-size: 14px;
-	color: #000000;
-	line-height: 2;
-	padding-bottom: 5px;
-}
-.tab-pane {
-	padding: 74px 59px 62px;
-}
-
---*/
 
 .storyagent-section-three {
 	padding: 26px 0;
