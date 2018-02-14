@@ -32,7 +32,6 @@
 	font-size: 32px;
 	line-height: 1.6em;
 	color: #ffffff;
-	font-family: 'Dosis', sans-serif;
 	font-weight: 700;
 	display: block;
 	text-align: center;
@@ -436,26 +435,6 @@
  ----------------------------------------*/
 
 
-.storyagent-portfolio-one{
-	padding:160px 0 0;
-}
-.storyagent-portfolio-one h2{
-	font-size: 60px;
-	color:#333333;
-	font-weight: 500;
-	line-height:1.2;
-	text-transform: uppercase;
-	font-family: "Dosis",Helvetica,Arial,Lucida,sans-serif;
-	margin-bottom: 15px;
-}
-.storyagent-portfolio-one p,
-.storyagent-portfolio-two p{
-	font-size:18px;
-	color:#666666;
-	font-weight: 500;
-	line-height:1.6;
-	margin-bottom: 38px;
-}
 .storyagent-portfolio-two{
 	padding: 55px 0;
 }

@@ -23,7 +23,8 @@ html {
 body {
 	font-family: 'Open Sans', sans-serif;
 	color: #666666;
-  font-weight: 500;
+  font-weight: 300;
+	line-height: 1.4;
 }
 
 /*
@@ -33,13 +34,12 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	color: #333333;
 	font-weight: 500;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Hind', sans-serif !important;
 }
 h1 {
 	color: #7a1800;
 	line-height:1.2;
     font-size: 54px;
-    font-family: "Dosis",Helvetica,Arial,Lucida,sans-serif;
 }
 h2 {
 	font-size: 30px;
@@ -57,6 +57,13 @@ h4 {
 	font-size: 21px;
 	line-height: 1;
 	margin: 0 0 0 0;
+}
+h4 strong{
+	font-size: 18px;
+	color:#ffffff;
+	line-height: 1.2;
+	display: block;
+	text-transform: uppercase;
 }
 h5 {
 	font-size: 18px;
@@ -120,14 +127,6 @@ img {
  ------------------------------*/
 #wrapper {
 	position: relative;
-}
-h4 strong{
-	font-size: 18px;
-	color:#ffffff;
-	line-height: 1.2;
-	display: block;
-	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
 }
 .pdr-45{
 	padding-right: 45px !important;
@@ -223,7 +222,7 @@ h4 strong{
 	height:14px;
 	background: transparent;
 	border:0;
-	margin: 18px 7px 7px 7px;
+	margin: 20px 16px 8px 8px;
 	-webkit-transition: all 0.7s ease 0s;
 	-moz-transition: all 0.7s ease 0s;
 	-ms-transition: all 0.7s ease 0s;
@@ -309,7 +308,23 @@ h4 strong{
 
 }
 
+/*
+ 7.) Welcome Text
+ ------------------------------*/
 
+
+.welcome {
+	padding:16px 0px 16px 0px;
+	background-color: #144C7D;
+}
+.welcome h2{
+	color:#FFF;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+}
+.welcome p{
+	color:#FFF;
+}
 
 /*
  7.) Footer Styles
@@ -324,15 +339,15 @@ h4 strong{
 	width:100%;
 	margin: 0 auto 40px;
 }
-.contact-btn{
+.footer__contact-btn{
 	margin-bottom: 40px;
 	padding: 0;
 }
-.contact-btn li{
+.footer__contact-btn li{
 	display: inline-block;
 	margin: 0 22px 10px;
 }
-.contact-btn li a{
+.footer__contact-btn li a{
 	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 2px solid #ffffff;
     color:#ffffff;
@@ -346,7 +361,7 @@ h4 strong{
     display: block;
     position: relative;
 }
-.contact-btn li a::before{
+.footer__contact-btn li a::before{
 	content:"";
 	background:url('../images/next.png') no-repeat scroll center right;
 	width:10px;
@@ -362,10 +377,10 @@ h4 strong{
 	display: none;
 	transition: all 0.2s ease 0s;
 }
-.contact-btn li a:hover::before{
+.footer__contact-btn li a:hover::before{
 	display: block;
 }
-.contact-btn li a:hover{
+.footer__contact-btn li a:hover{
 	padding: 0.3em 2em 0.3em 1em;
 	background: rgba(255, 255, 255, 0.2);
 	border:2px solid rgba(0, 0, 0, 0);
