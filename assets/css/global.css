@@ -180,13 +180,9 @@ h4 strong{
 
 .header__logo{
 	float: left;
+	padding-left: 24px;
 }
-/* KIWI Don't need no more
-.header-nav{
-	float: right;
-	position: relative;
-}
-*/
+
 .header__container{
 	margin: 0 auto;
 	position: absolute;
@@ -200,8 +196,8 @@ h4 strong{
     -o-transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
     transition: left 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0s, background 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, opacity 0.4s cubic-bezier(0.77, 0, 0.175, 1) 0s, transform 0.4s ease-in-out 0s;
     z-index: 99;
-		width: 90%;
 }
+
 .header__container.sticky{
 	position: fixed;
 	background: #fcfcfc;
@@ -210,6 +206,7 @@ h4 strong{
 	box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
 	z-index: 99;
 }
+
 .header__container .header__logo img{
 	-webkit-transition: all 0.4s ease-in-out 0s;
     -moz-transition: all 0.4s ease-in-out 0s;
@@ -245,6 +242,7 @@ h4 strong{
 .header__navigation {
 	float: right;
 	position: relative;
+	padding-right: 24px;
 }
 .header__navigation ul{
 	padding: 0;
@@ -253,13 +251,13 @@ h4 strong{
 	line-height: 1.2;
 	list-style-type: none;
 	display: inline-block;
-	padding: 8px 22px;
+	padding: 8px 16px;
 	position: relative;
 }
 .header__navigation li a {
 	border: medium none;
 	color:#000000;
-	padding: 5px;
+	padding: 5px 0px 5px 0px;
 	font-size: 16px;
 	text-transform: capitalize;
 	-webkit-transition: all 0.2s ease-in-out 0s;
@@ -279,9 +277,9 @@ h4 strong{
 	height: inherit;
 	width: inherit;
 	line-height: 1.2;
-	font-size: 13px;
+	font-size: 12px;
 	color:#000000;
-	margin: -5px 0 0 20px;
+	margin: -6px 0 0 12px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -294,7 +292,7 @@ h4 strong{
 	position: absolute;
 	width:100%;
 	left:10px;
-	top:61px;
+	top:48px;
 	background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
 	border-radius:3px;
 	z-index: 99;
