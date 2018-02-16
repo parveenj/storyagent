@@ -12,7 +12,7 @@
 
 
 /*
- 1.) Global Typography
+ 1.) Global Styles
  ----------------------------------------*/
 
 html {
@@ -85,9 +85,6 @@ h6 {
 	margin: 0 0 1.5em 0;
 }
 
-/*
- 3.) General Typography
- -----------------------------------*/
 p {
 	font-size: 17px;
 	line-height: 1.5;
@@ -348,17 +345,20 @@ img {
 
  .banner--homepage {
  	width: 100%;
- 	height: 600px;
+ 	height: 540px;
 	/* from uigradients.com */
 	background: #F9A470;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #F9A470, #FEC86B);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #F9A470, #FEC86B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
  }
 
  .banner--homepage img {
- 	padding: 250px;
+	margin: 0;
+position: relative;
+width: 60%;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
  }
 
 .welcome {
