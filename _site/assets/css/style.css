@@ -12,12 +12,7 @@
  1.) Homepage
  ----------------------------------------*/
 
-.storyagent-banner img {
-	width: 100%;
-	height: auto;
-	vertical-align: top;
-	/*	height: 827px;*/
-}
+
 .storyagent-section-one {
 	background: #144c7d;
 	padding: 24px 0 40px;
