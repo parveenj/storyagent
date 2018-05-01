@@ -2,7 +2,7 @@
  Table Of Contents
 
  1.) Homepage
- 2.) fireeye
+ 2.) Fireeye
  3.) About
  4.) Portfolio
  5.) Blog
@@ -12,6 +12,39 @@
  1.) Homepage
  ----------------------------------------*/
 
+.container-grid {
+	padding: 26px 0;
+	margin: auto;
+	width: 90%;
+}
+
+.container-grid h3 {
+	margin: 40px 0px;
+}
+
+.container-grid p {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	line-height: 1.6;
+}
+
+.portfolio-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 40px;
+}
+
+.portfolio-card {
+	padding: 16px;
+	-webkit-transition: all 0.5s ease ;
+	-moz-transition: all 0.5s ease ;
+	-ms-transition: all 0.5s ease ;
+	-o-transition: all 0.5s ease ;
+	transition: all 0.5s ease ;
+	position: relative;
+}
 
 .storyagent-section-one {
 	background: #144c7d;
@@ -33,22 +66,6 @@
 	padding-bottom: 10px;
 }
 
-.storyagent-section-three {
-	padding: 26px 0;
-}
-.storyagent-section-three h3 {
-	margin-bottom: 40px;
-}
-.storyagent-stories-block a {
-	display: block;
-	margin-bottom: 12px;
-	-webkit-transition: all 0.5s ease ;
-	-moz-transition: all 0.5s ease ;
-	-ms-transition: all 0.5s ease ;
-	-o-transition: all 0.5s ease ;
-	transition: all 0.5s ease ;
-	position: relative;
-}
 .st-overlay{
 	content: "";
 	width:100%;
@@ -64,7 +81,8 @@
 	-o-transition: all 0.3s ease ;
 	transition: all 0.3s ease ;
 }
-.storyagent-stories-block a:hover .st-overlay{
+
+.portfolio-card a:hover .st-overlay{
 	opacity:1;
 }
 .st-overlay:before{
@@ -79,16 +97,18 @@
     height: 40px;
     opacity:0;
 }
-.storyagent-stories-block a:hover .st-overlay:before{
+
+.portfolio-card a:hover .st-overlay:before{
 	top:50%;
 	opacity:1;
 }
-.storyagent-stories-block figure img {
+.portfolio-card figure img {
 	width: 100%;
-	/*	height: 224px;*/
+
 }
-.storyagent-stories-block strong {
-	display: block;
+
+.portfolio-card strong {
+	/* display:block; */
 	font-size: 12px;
 	line-height: 1.2;
 	color: #666666;
@@ -96,22 +116,22 @@
 	font-weight: 700;
 	margin-bottom: 2px;
 }
-.storyagent-stories-block span {
-	display: block;
+.portfolio-card span {
+	/* display:block; */
 	font-family: 'Crete Round', serif;
 }
-.storyagent-stories-block strong small {
+.portfolio-card strong small {
 	font-size: 12px;
 	font-style: italic;
 	font-weight: 500;
 	text-transform: lowercase;
 }
-.storyagent-stories-block {
+.portfolio-card {
 	margin-bottom: 30px;
 }
 .social-link li a {
 	position: relative;
-	display: block;
+	/* display:block; */
 }
 .social-link li a:hover:before {
 	content: "";
@@ -146,7 +166,7 @@
 .section-scroll-web ul li a {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 7px;
-	display: block;
+	/* display:block; */
 	height: 7px;
 	margin-right: 10px;
 	text-indent: -9999px;
@@ -360,7 +380,6 @@
 	display: block;
 	text-align:right;
 	margin-right: 30px;
-	vertical-align: middle;
 }
 .resume-btn{
 	font-size: 20px;
