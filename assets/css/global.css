@@ -385,9 +385,17 @@ transform: translate(-50%, -50%);
 	padding: 46px 0;
 }
 
-.footer__container p{
-	max-width:380px;
-	width:100%;
+.container-footer {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 16px;
+	padding: 0px 40px;
+}
+
+.container-footer p{
+	max-width: 80%;
+	width:80%;
 	margin: 0 auto 40px;
 }
 

@@ -46,6 +46,9 @@
 	position: relative;
 }
 
+
+
+
 .storyagent-section-one {
 	background: #144c7d;
 	padding: 24px 0 40px;
@@ -104,7 +107,6 @@
 }
 .portfolio-card figure img {
 	width: 100%;
-
 }
 
 .portfolio-card strong {
@@ -117,7 +119,7 @@
 	margin-bottom: 2px;
 }
 .portfolio-card span {
-	/* display:block; */
+	display:block; 
 	font-family: 'Crete Round', serif;
 }
 .portfolio-card strong small {
@@ -129,6 +131,7 @@
 .portfolio-card {
 	margin-bottom: 30px;
 }
+
 .social-link li a {
 	position: relative;
 	/* display:block; */
